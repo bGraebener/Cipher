@@ -1,0 +1,5 @@
+/bin
+/res
+*.txt
+.project
+.classpath
