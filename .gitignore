@@ -3,3 +3,5 @@
 *.txt
 .project
 .classpath
+*.class
+*.jar
