@@ -84,7 +84,7 @@ public class PortaCipher implements Encryptor {
 	 * The method that is used to decrypt a cipher text with the given key.
 	 * 
 	 * In case of the PortaCipher the decryption of a cipher text uses the same
-	 * algorithm as the encryption, so it just delegates
+	 * algorithm as the encryption, so it just delegates.
 	 * 
 	 */
 	public String decrypt(String key, String cipher) {

@@ -5,3 +5,6 @@
 .classpath
 *.class
 *.jar
+.idea/
+PortaCipher.iml
+out/

@@ -25,7 +25,7 @@ public class Parser {
 
 	private Parser(BufferedReader reader) {
 		this.reader = reader;
-	};
+	}
 
 	/**
 	 * Method that tries to retrieve text from the specified source. It stores
@@ -43,16 +43,12 @@ public class Parser {
 
 		List<String> plainText = new ArrayList<>();
 
-		// parsing all upper-case characters leaving whitespace in
-		// reader.lines().forEach((line) ->
-		// book.add(line.replaceAll("[^a-zA-Z\\s]", "").toUpperCase()));
-
 		// parsing all upper-case characters without any special characters and
 		// no whitespace
 		reader.lines().forEach((line) -> plainText.add(line.replaceAll("[^a-zA-Z]", "").toUpperCase()));
 
 		// return deep copy of List
-		return new ArrayList<String>(plainText);
+		return new ArrayList<>(plainText);
 	}
 
 	/**
